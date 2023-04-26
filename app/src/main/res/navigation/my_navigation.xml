@@ -10,4 +10,9 @@
         android:name="com.example.mycontactapp.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/smsFragment"
+        android:name="com.example.mycontactapp.fragments.SmsFragment"
+        android:label="fragment_sms"
+        tools:layout="@layout/fragment_sms" />
 </navigation>

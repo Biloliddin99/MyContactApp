@@ -1,9 +1,9 @@
 package com.example.mycontactapp.models
 
-class Contact{
-    var id:Int? = null
-    var name:String? = null
-    var number:String? = null
+class Contact : java.io.Serializable {
+    var id: Int? = null
+    var name: String? = null
+    var number: String? = null
 
     constructor(id: Int?, name: String?, number: String?) {
         this.id = id
@@ -15,6 +15,8 @@ class Contact{
         this.name = name
         this.number = number
     }
+
+    constructor()
 
 
 }
